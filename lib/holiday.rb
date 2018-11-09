@@ -72,7 +72,7 @@ def all_supplies_in_holidays(holiday_hash)
       else
         text = holiday_name.to_s
       end
-      puts "  #{text.titleize}: #{supply_array.join(", ")}"
+      puts "  #{text}: #{supply_array.join(", ")}"
     end
   end
 end
