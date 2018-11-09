@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
           text << word.capitalize
           text << " "
         end
-        text.chop
+        text = text.chop
       else
         text = holiday_name.to_s.capitalize
       end
